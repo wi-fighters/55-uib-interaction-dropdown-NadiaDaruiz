@@ -5,31 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/190f3b6795.js" crossorigin="anonymous"></script>
     <title>Dropdown Menu</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li>About
-                    <ul>
-                        <li>Florists</li>
-                        <li>Meet the team</li>
-                        <li>Carrer</li>
+            <ul class="menu">
+                <li class="dropdown">About  <i class="fas fa-sort-down"></i>
+                    <ul class="dropdown-items">
+                        <li><a href="#">Florists</a></li>
+                        <li><a href="#">Meet the team</a></li>
+                        <li><a href="#">Career</a></li>
                     </ul>
                 </li>
-                <li>Services
-                    <ul>
-                        <li>Pick your flowers</li>
-                        <li>Custom packaging</li>
-                        <li>Same day delivery</li>
+                <li class="dropdown">Services  <i class="fas fa-sort-down"></i>
+                    <ul class="dropdown-items">
+                        <li><a href="#">Pick your flowers</a></li>
+                        <li><a href="#">Custom packaging</a></li>
+                        <li><a href="#">Same day delivery</a></li>
                     </ul>
                 </li>
-                <li>Top Picks</li>
+                <li class="dropdown">Top Picks  <i class="fas fa-sort-down"></i></li>
             </ul>
         </nav>
-    </header>
-
-    
+    </header>    
 </body>
 </html>
